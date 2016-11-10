@@ -7,9 +7,7 @@ environment variable and node-config will load it for you.
 
 ```js
 // config.js
-module.exports = {
-  API_KEY: 'TEST'
-};
+exports.API_KEY = 'TEST';
 
 // lib/index.js
 // process.env.CONFIG = ./config.js
