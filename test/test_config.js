@@ -36,13 +36,6 @@ describe('node-config', () => {
     expect(Config.get('TEST')).to.be.undefined();
     done();
   });
-
-  it('sets the config dict', (done) => {
-
-    Config.set('TEST33', 33);
-    expect(Config.get('TEST33')).to.equal(33);
-    done();
-  });
 });
 
 describe('node-config defaults', () => {
